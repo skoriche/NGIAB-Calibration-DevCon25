@@ -440,6 +440,9 @@ Each of these four tools in published publically and they're designed to interac
 git submodule init
 git submodules update
 
+# create a virtual environment
+uv venv
+
 # install the local code
 uv pip install -e tools/NGIAB_data_preprocess
 uv pip install -e tools/ngiab-cal
@@ -457,7 +460,7 @@ sed -i 's/awiciroh\/ciroh-ngen-image:latest /my_ngiab /g' tools/NGIAB_data_prepr
 ```bash
 docker build -t ngiab_cal tools/ngen-cal/
 # patch ngiab-cal --run to use your image
-sed -i 's/DOCKER.*/DOCKER_IMAGE_NAME = "ngiab_cal"/g' tools/ngiab-cal/src/ngiab_cal/__main__.py
+sed -i 's/^DOCKER.*/DOCKER_IMAGE_NAME = "ngiab_cal"/g' tools/ngiab-cal/src/ngiab_cal/__main__.py
 ```
 
 ---
