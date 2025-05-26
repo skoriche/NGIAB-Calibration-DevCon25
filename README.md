@@ -80,7 +80,7 @@ This hands-on workshop provides comprehensive guidance for hydrological model ca
 - [Directory Structure](../../wiki/Directory-Structure) - File organization reference
 
 ### 📞 Support
-- [Contact Information](../../wiki/Contact) - Get help and support
+- [Contact Information](../../wiki/Contact-and-Acknowledgment) - Get help and support
 - [GitHub Issues](https://github.com/skoriche/NGIAB-Calibration-DevCon25/issues) - Report bugs or ask questions
 
 ---
@@ -174,11 +174,11 @@ cd NGIAB-Calibration-DevCon25
 
 ## 📝 License and Acknowledgment
 
-This workshop was supported by the **Cooperative Institute for Research to Operations in Hydrology (CIROH)** with funding from the **NOAA Cooperative Institute Program**. 
+This workshop was supported by the **Cooperative Institute for Research to Operations in Hydrology (CIROH)** with funding from the **NOAA Cooperative Institute Program**.
 
 The statements, findings, conclusions, and recommendations are those of the author(s) and do not necessarily reflect the opinions of NOAA.
 
-> 📞 **Full contact info**: [Contact and Acknowledgment](../../wiki/Contact)
+> 📞 **Full contact info**: [Contact and Acknowledgment](../../wiki/Contact-and-Acknowledgment)
 
 ---
 
@@ -186,11 +186,11 @@ The statements, findings, conclusions, and recommendations are those of the auth
 
 ```
 ├── 📁 Data/                    # Workshop datasets (Provo River example)
-├── 📁 Information/             # Workshop materials and figures  
+├── 📁 Information/             # Workshop materials and figures
 ├── 📁 Slides/                  # Presentation slides
 ├── 📁 tools/                   # Source code submodules
 │   ├── NGIAB_data_preprocess/  # Data preparation tool
-│   ├── ngiab-cal/              # Calibration CLI tool  
+│   ├── ngiab-cal/              # Calibration CLI tool
 │   ├── NGIAB-CloudInfra/       # Docker build configurations
 │   └── ngen-cal/               # Calibration algorithms
 └── 📄 dev_install.sh           # Development setup script
