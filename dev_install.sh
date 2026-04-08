@@ -84,7 +84,7 @@ setup_virtual_env() {
     
     if [ ! -d ".venv" ]; then
         print_info "Creating virtual environment..."
-        uv venv
+        uv venv -p 3.11
         print_success "Virtual environment created"
         VENV_WAS_CREATED=1
     else
